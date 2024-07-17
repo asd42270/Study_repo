@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/4f80c397-6576-47b4-9a03-21dda4dddfab)### 서버사이드렌더링(SSR)이 뭐에요?
+### 서버사이드렌더링(SSR)이 뭐에요?
 - 요거를 설명하려면 CSR과 비교하면서 설명해야 된다.
 
 #### 그런데 SPA랑 MPA가 뭐에요??
