@@ -14,7 +14,7 @@
 8. SQL과 noSQL의 차이를 설명해주세요 - 07.17 완료!
 9. 각 언어별 Iterator에 대해 설명해주세요 - 07.20 완료!
 10. Git에서 써본 명령어와 사용한 Git flow전략에 대해 설명해주세요 - 07.21 완료!
-11. JPA는 무엇인가?
+11. JPA는 무엇인가? 07.21 - 07.22 완료!
 12. Spring Framework와 Spring Boot의 차이
 13. Spring Web MVC의 Dispatcher Servlet의 동작 원리에 대해서 간단히 설명해주세요.
 14. Spring Bean Life Cycle에 대해 설명해주세요
