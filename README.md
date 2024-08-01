@@ -66,5 +66,7 @@
 59. 직렬화(serialization)란?
 60. final / finally / finalize() 차이는 무엇인가요?
 61. JDBC에 대해서 설명하세요!
-62. JWT에 대해서 설명해라!
+62. JWT에 대해서 설명해라! - 08.01 완료!
 63. RestTemplate는 뭐냐!
+64. JWT의 Public Key와 Private Key
+65. Refresh Token과 Refresh Token Rotation
