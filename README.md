@@ -71,4 +71,5 @@
 63. RestTemplate는 뭐냐! - 08.01 완료!
 64. JWT의 Public Key와 Private Key
 65. Refresh Token과 Refresh Token Rotation
-66. Filter와 Spring Security
+66. Filter와 Spring Security - 08.02 완료!
+67. Spring Security의 여러 Filter
