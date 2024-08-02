@@ -1,4 +1,5 @@
-![image](https://github.com/user-attachments/assets/03243d3e-3412-46d3-8be3-ccf9a20f0643)#### Filter와 Spring Security
+#### Filter와 Spring Security
+
 ![image](https://github.com/user-attachments/assets/7965901a-d7e8-4848-a848-0ddbd43ac385)
 - Filter: Dispatcher Servlet의 앞단에 위치하여 각각 요청의 최초단계와 응답의 최종 단계에서 부가적인 동작을 수행한다.
 - 주로 범용적으로 처리해야 하는 작업에 사용한다.
