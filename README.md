@@ -6,6 +6,7 @@
 - 08.01 질문 추가
 - 08.02 질문 추가
 - 08.04 질문 추가
+- 08.09 질문 추가
 #### 정리해야하는 질문들
 1. 브라우저에 ‘naver.com’을 입력하면 내부적으로 어떤 일이 일어나는지 설명해주세요 - 07. 14 완료!
 2. 웹 브라우저 공격을 아는대로 설명해주세요 - 07.15 완료!
@@ -74,4 +75,5 @@
 65. Refresh Token과 Refresh Token Rotation
 66. Filter와 Spring Security - 08.02 완료!
 67. Spring Security의 여러 Filter
-68. 페이징 처리리
+68. 페이징 처리
+69. Spring Cloud
