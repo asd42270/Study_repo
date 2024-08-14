@@ -77,5 +77,5 @@
 66. Filter와 Spring Security - 08.02 완료!
 67. Spring Security의 여러 Filter
 68. 페이징 처리
-69. Spring Cloud
-70. Docker와 컨테이너
+69. Spring Cloud - 08.09 완료!
+70. Docker와 컨테이너 - 08.12 완료!
