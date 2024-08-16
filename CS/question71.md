@@ -80,5 +80,17 @@ fork() 동안 Redis는 쓰기 작업을 처리할 수 없어 클라이언트의 
 - 비동기로 동작한다: Replication Lag(복제 지연)가 발생할 수 있다.(슬레이브가 마스터의 업데이트를 따라잡을 수 없을 때)
   - Replication Lag이 많이 발생하면 부하가 증가하여 Master가 Slave의 연결을 끊어버린다.
   - Master-Slave에서 Replicaof-slaveof로 변경했다.(둘 다 사용 가능)
+- Replication과정에서 fork가 발생하므로 메모리 부족이 발생할 수 있다.
+- Redis-cli-rdb 명령은 현재 상태의 메모리 스냅샷을 가져오므로 같은 문제를 발생시킨다.
+- AWS나 클라우드의 Redis는 좀 다르게 구현되어서 좀 더 안정적이다. fork없이 데이터를 전달할 수 있다. 하지만 그만큼 많이 느리다!
+- Redis 서버가 많은 Replica를 가지고 있다면 네트워크 이슈나 사람의 작업으로 동시에 replication이 재시도 되지 않도록 주의해야 한다.
 
-https://www.youtube.com/watch?v=mPB2CZiAkKM 54:43부터 다시 
+#### Redis 권장 설정 팁
+- Maxclinet 설정을 높이자.
+- RDB/AOF 설정을 off
+- Keys 관련 특정 커맨드를 disable
+- 전체 장애의 90% 이상이 Keys와 SAVE 설정(1초안에 키가 ~~개 바뀌면 dump 해!)을 사용해서 발생.(SAVE의 Deafault 설정이 굉장히 빈번하게 발생한다.
+
+#### Redis 데이터 분산
+- 데이터 특성에 따라서 선택할 수 있는 방법이 달라진다.
+- Application에 따라 or Redis Cluster에 따라  
