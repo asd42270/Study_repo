@@ -24,8 +24,8 @@
 12. Spring Framework와 Spring Boot의 차이 - 07.25 완료!
 13. Spring Web MVC의 Dispatcher Servlet의 동작 원리에 대해서 간단히 설명해주세요. - 07.25 완료!
 14. Spring Bean Life Cycle에 대해 설명해주세요 - 08.01 완료!
-15. filter와 interceptor의 차이
-16. Dependency Injection (방법 3가지)
+15. filter와 interceptor의 차이 - 08.25 완료!
+16. Dependency Injection (방법 3가지) - 08.25 완료!
 17. AOP로 실제 개발한 경험이 있다면 설명해주세요
 18. maven/gradle의 차이를 설명해주세요
 19. 아파치, 톰캣은 각각 멀티 프로세스인가 멀티 쓰레드인가?
