@@ -43,4 +43,5 @@
 - Maven의 경우 멀티 프로젝트에서 특정 설정을 다른 모듈에서 사용하려면 상속을 받아야 한다.
 ![image](https://github.com/user-attachments/assets/101e7356-7ff3-4b66-ad5a-76ec3b5756c3)
 ![image](https://github.com/user-attachments/assets/8cd11da1-6ed4-4ca2-86a6-f7dfc8004410)
+
 속도도 Gradle이 확실히 빠르다!!
