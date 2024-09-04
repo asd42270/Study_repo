@@ -27,7 +27,7 @@
 15. filter와 interceptor의 차이 - 08.25 완료!
 16. Dependency Injection (방법 3가지) - 08.25 완료!
 17. AOP로 실제 개발한 경험이 있다면 설명해주세요
-18. maven/gradle의 차이를 설명해주세요
+18. maven/gradle의 차이를 설명해주세요 - 09.04 완료!
 19. 아파치, 톰캣은 각각 멀티 프로세스인가 멀티 쓰레드인가?
 20. Spring Security 인증은 어떻게 이루어지나요?
 21. 객체지향에 대해서 설명해주세요.
